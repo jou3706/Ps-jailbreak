@@ -11,8 +11,20 @@ html {
 }
 
 .king-name {
-    font-size: 56px !important;
-    color: #ffd700 !important;
+    font-size: 56px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ffd700, #ff3d00, #ff00c8, #00e5ff, #00ff88, #ffd700);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: nameColors 4s linear infinite;
+}
+
+@keyframes nameColors {
+    0%   { background-position: 0% 50%; }
+    100% { background-position: 300% 50%; }
 }
 
 .contact-link {
@@ -112,4 +124,10 @@ a:hover {
 
 .btn-multi:hover {
     background-color: #daa520;
+}
+
+.by-text {
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
 }
