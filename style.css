@@ -1,8 +1,8 @@
 html {
     background-color: #000000;
     background-image: url('img2_16x9.jpg');
-    background-position: right bottom;
-    background-size: 320px auto;
+    background-position: left 30px top 73%;
+    background-size: 620px auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: white;
@@ -132,15 +132,14 @@ a:hover {
     color: white;
 }
 
-.engineer-tag {
+.created-by {
     position: fixed;
-    right: 0;
-    bottom: 190px;
-    width: 320px;
-    text-align: center;
+    right: 25px;
+    bottom: 18px;
     font-family: 'Orbitron', Arial, sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
     color: #ffffff;
-    text-shadow: 0 0 10px #00e5ff;
+    text-shadow: 0 0 8px #00e5ff, 0 0 18px #00e5ff;
 }
